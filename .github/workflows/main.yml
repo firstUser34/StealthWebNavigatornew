@@ -102,10 +102,6 @@ jobs:
         sleep 3
         python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 3 --delay-max 7
 
-    - name: Run Continuous Bot
-      if: github.event.inputs.execution_mode == 'continuous'
-      run: |
-        timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
 
     - name: Run Multi-Strategy Bot
       if: github.event.inputs.execution_mode == 'multi'
@@ -114,6 +110,12 @@ jobs:
         Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
         sleep 3
         timeout 45m python continuous_stealth_bot.py --mode multi || true
+
+    - name: Run Continuous Bot
+      if: github.event.inputs.execution_mode == 'continuous'
+      run: |
+        timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
+
 
     - name: Upload Execution Logs
       uses: actions/upload-artifact@v4
