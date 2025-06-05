@@ -43,7 +43,22 @@ jobs:
     - name: Install System Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y firefox-esr xvfb
+        
+        # Install Firefox via snap if apt package fails
+        if ! sudo apt-get install -y firefox; then
+          sudo snap install firefox
+        fi
+        
+        # Install other dependencies
+        sudo apt-get install -y xvfb wget curl
+        
+        # Install latest geckodriver
+        GECKODRIVER_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
+        wget -O geckodriver.tar.gz "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz"
+        tar -xzf geckodriver.tar.gz
+        sudo mv geckodriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/geckodriver
+        rm geckodriver.tar.gz
 
     - name: Create requirements file
       run: |
@@ -52,7 +67,6 @@ jobs:
         fake-useragent>=2.2.0
         requests>=2.32.3
         python-dotenv>=1.1.0
-        geckodriver-autoinstaller>=0.1.0
         EOF
 
     - name: Install Python Dependencies
@@ -60,9 +74,11 @@ jobs:
         pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Setup Firefox Driver
+    - name: Verify Firefox and Geckodriver
       run: |
-        python -c "import geckodriver_autoinstaller; geckodriver_autoinstaller.install()"
+        firefox --version
+        geckodriver --version
+        which geckodriver
 
     - name: Create Logs Directory
       run: mkdir -p logs
