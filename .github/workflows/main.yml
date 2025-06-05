@@ -1,0 +1,26 @@
+name: Ultimate Stealth Bot
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  run-stealth-bot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: pip install requests fake-useragent python-dotenv
+    
+    - name: Run stealth bot
+      run: python ultimate_stealth_bot.py --categories x_links
+    
+    - name: Upload logs
+      uses: actions/upload-artifact@v3
+      with:
+        name: stealth-bot-logs
+        path: logs/
