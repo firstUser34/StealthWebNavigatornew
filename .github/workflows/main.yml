@@ -2,7 +2,6 @@ name: Continuous Stealth Bot
 
 on:
   schedule:
-    # Run every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
@@ -12,10 +11,10 @@ on:
         default: 'continuous'
         type: choice
         options:
-        - single
-        - continuous
-        - firefox
-        - multi
+          - single
+          - continuous
+          - firefox
+          - multi
       execution_time:
         description: 'Execution time in minutes'
         required: false
@@ -29,141 +28,145 @@ jobs:
   stealth-bot:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    
+
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        cache: 'pip'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-    - name: Install System Dependencies
-      run: |
-        sudo apt-get update
-        
-        # Install Firefox with multiple fallback options
-        if ! sudo snap install firefox; then
-          echo "Snap install failed, trying alternative methods..."
-          # Try downloading Firefox directly
-          wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
-          tar -xjf firefox.tar.bz2
-          sudo mv firefox /opt/
-          sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox
-          rm firefox.tar.bz2
-        fi
-        
-        # Install other dependencies
-        sudo apt-get install -y xvfb wget curl
-        
-        # Install latest geckodriver
-        GECKODRIVER_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
-        wget -O geckodriver.tar.gz "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz"
-        tar -xzf geckodriver.tar.gz
-        sudo mv geckodriver /usr/local/bin/
-        sudo chmod +x /usr/local/bin/geckodriver
-        rm geckodriver.tar.gz
+      - name: Install System Dependencies
+        run: |
+          set -e
+          sudo apt-get update
 
-    - name: Create requirements file
-      run: |
-        cat > requirements.txt << EOF
-        selenium>=4.33.0
-        fake-useragent>=2.2.0
-        requests>=2.32.3
-        python-dotenv>=1.1.0
-        EOF
+          echo "🧰 Installing system packages..."
+          sudo apt-get install -y xvfb wget curl || true
 
-    - name: Install Python Dependencies
-      run: |
-        pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Verify Firefox and Geckodriver
-      run: |
-        firefox --version
-        geckodriver --version
-        which geckodriver
-
-    - name: Create Logs Directory
-      run: mkdir -p logs
-
-
-    - name: Run Firefox Bot
-      if: github.event.inputs.execution_mode == 'firefox'
-      run: |
-        export DISPLAY=:99
-        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-        sleep 3
-        python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 3 --delay-max 7
-
-
-    - name: Run Multi-Strategy Bot
-      if: github.event.inputs.execution_mode == 'multi'
-      run: |
-        export DISPLAY=:99
-        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-        sleep 3
-        timeout 45m python continuous_stealth_bot.py --mode multi || true
-
-    - name: Run Continuous Bot
-      if: github.event.inputs.execution_mode == 'continuous'
-      run: |
-        timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
-
-    - name: Run Single Bot Execution
-      if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
-      run: |
-        python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
-
-    - name: Upload Execution Logs
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: stealth-bot-logs-${{ github.run_number }}
-        path: logs/
-        retention-days: 7
-        if-no-files-found: warn
-
-    - name: Display Execution Summary
-      if: always()
-      run: |
-        echo "=== STEALTH BOT EXECUTION SUMMARY ==="
-        if [ -d "logs" ]; then
-          echo "Log files created:"
-          ls -la logs/ || echo "No log files found"
-          echo ""
-          
-          # Find and display execution reports
-          for report in logs/execution_report_*.json; do
-            if [ -f "$report" ]; then
-              echo "Execution report: $report"
-              if command -v jq >/dev/null 2>&1; then
-                cat "$report" | jq '.'
-              else
-                cat "$report"
-              fi
+          echo "🦊 Installing Firefox..."
+          for i in {1..3}; do
+            if sudo snap install firefox; then
+              echo "✅ Firefox installed via Snap"
               break
+            else
+              echo "⚠️ Firefox snap install attempt $i failed. Retrying in 10s..."
+              sleep 10
             fi
           done
-          
-          # Show recent log entries
-          for logfile in logs/*.log; do
-            if [ -f "$logfile" ]; then
-              echo "Recent entries from $logfile:"
-              tail -10 "$logfile" || echo "Could not read $logfile"
-              echo ""
-            fi
-          done
-        else
-          echo "No logs directory found"
-        fi
-        echo "Execution completed!"
 
-    - name: Cleanup
-      if: always()
-      run: |
-        pkill -f python || true
-        pkill -f firefox || true
-        pkill -f Xvfb || true
+          if ! command -v firefox >/dev/null 2>&1; then
+            echo "⚠️ Snap install failed. Fallback to manual Firefox install..."
+            wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
+            tar -xjf firefox.tar.bz2
+            sudo mv firefox /opt/firefox
+            sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox
+            rm firefox.tar.bz2
+          fi
+
+          echo "🛠 Installing Geckodriver..."
+          GECKODRIVER_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
+          wget -O geckodriver.tar.gz "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz"
+          tar -xzf geckodriver.tar.gz
+          sudo mv geckodriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/geckodriver
+          rm geckodriver.tar.gz
+
+      - name: Create requirements file
+        run: |
+          cat > requirements.txt << EOF
+          selenium>=4.33.0
+          fake-useragent>=2.2.0
+          requests>=2.32.3
+          python-dotenv>=1.1.0
+          EOF
+
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify Firefox and Geckodriver
+        run: |
+          firefox --version
+          geckodriver --version
+          which geckodriver
+
+      - name: Create Logs Directory
+        run: mkdir -p logs
+
+      - name: Run Firefox Bot
+        if: github.event.inputs.execution_mode == 'firefox'
+        run: |
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          sleep 3
+          python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 3 --delay-max 7
+
+      - name: Run Multi-Strategy Bot
+        if: github.event.inputs.execution_mode == 'multi'
+        run: |
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          sleep 3
+          timeout 45m python continuous_stealth_bot.py --mode multi || true
+
+      - name: Run Continuous Bot
+        if: github.event.inputs.execution_mode == 'continuous'
+        run: |
+          timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
+
+      - name: Run Single Bot Execution
+        if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
+        run: |
+          python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
+
+      - name: Upload Execution Logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stealth-bot-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Display Execution Summary
+        if: always()
+        run: |
+          echo "=== STEALTH BOT EXECUTION SUMMARY ==="
+          if [ -d "logs" ]; then
+            echo "Log files created:"
+            ls -la logs/ || echo "No log files found"
+            echo ""
+            for report in logs/execution_report_*.json; do
+              if [ -f "$report" ]; then
+                echo "Execution report: $report"
+                if command -v jq >/dev/null 2>&1; then
+                  cat "$report" | jq '.'
+                else
+                  cat "$report"
+                fi
+                break
+              fi
+            done
+            for logfile in logs/*.log; do
+              if [ -f "$logfile" ]; then
+                echo "Recent entries from $logfile:"
+                tail -10 "$logfile" || echo "Could not read $logfile"
+                echo ""
+              fi
+            done
+          else
+            echo "No logs directory found"
+          fi
+          echo "Execution completed!"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          pkill -f python || true
+          pkill -f firefox || true
+          pkill -f Xvfb || true
