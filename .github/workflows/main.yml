@@ -19,8 +19,4 @@ jobs:
     - name: Run stealth bot
       run: python ultimate_stealth_bot.py --categories x_links
     
-    - name: Upload logs
-      uses: actions/upload-artifact@v3
-      with:
-        name: stealth-bot-logs
-        path: logs/
+
