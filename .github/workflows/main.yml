@@ -1,22 +1,145 @@
-name: Ultimate Stealth Bot
+name: Continuous Stealth Bot
+
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
   workflow_dispatch:
+    inputs:
+      execution_mode:
+        description: 'Execution Mode'
+        required: true
+        default: 'continuous'
+        type: choice
+        options:
+        - single
+        - continuous
+        - firefox
+        - multi
+      execution_time:
+        description: 'Execution time in minutes'
+        required: false
+        default: '30'
+      sleep_time:
+        description: 'Sleep time in minutes'
+        required: false
+        default: '5'
 
 jobs:
-  run-stealth-bot:
+  stealth-bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
+    
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-    
-    - name: Install dependencies
-      run: pip install requests fake-useragent python-dotenv
-    
-    - name: Run stealth bot
-      run: python ultimate_stealth_bot.py --categories x_links
-    
+        cache: 'pip'
 
+    - name: Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y firefox-esr xvfb
+
+    - name: Create requirements file
+      run: |
+        cat > requirements.txt << EOF
+        selenium>=4.33.0
+        fake-useragent>=2.2.0
+        requests>=2.32.3
+        python-dotenv>=1.1.0
+        geckodriver-autoinstaller>=0.1.0
+        EOF
+
+    - name: Install Python Dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Setup Firefox Driver
+      run: |
+        python -c "import geckodriver_autoinstaller; geckodriver_autoinstaller.install()"
+
+    - name: Create Logs Directory
+      run: mkdir -p logs
+
+    - name: Run Single Bot Execution
+      if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
+      run: |
+        python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
+
+    - name: Run Firefox Bot
+      if: github.event.inputs.execution_mode == 'firefox'
+      run: |
+        export DISPLAY=:99
+        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+        sleep 3
+        python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 3 --delay-max 7
+
+    - name: Run Continuous Bot
+      if: github.event.inputs.execution_mode == 'continuous'
+      run: |
+        timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
+
+    - name: Run Multi-Strategy Bot
+      if: github.event.inputs.execution_mode == 'multi'
+      run: |
+        export DISPLAY=:99
+        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+        sleep 3
+        timeout 45m python continuous_stealth_bot.py --mode multi || true
+
+    - name: Upload Execution Logs
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: stealth-bot-logs-${{ github.run_number }}
+        path: logs/
+        retention-days: 7
+        if-no-files-found: warn
+
+    - name: Display Execution Summary
+      if: always()
+      run: |
+        echo "=== STEALTH BOT EXECUTION SUMMARY ==="
+        if [ -d "logs" ]; then
+          echo "Log files created:"
+          ls -la logs/ || echo "No log files found"
+          echo ""
+          
+          # Find and display execution reports
+          for report in logs/execution_report_*.json; do
+            if [ -f "$report" ]; then
+              echo "Execution report: $report"
+              if command -v jq >/dev/null 2>&1; then
+                cat "$report" | jq '.'
+              else
+                cat "$report"
+              fi
+              break
+            fi
+          done
+          
+          # Show recent log entries
+          for logfile in logs/*.log; do
+            if [ -f "$logfile" ]; then
+              echo "Recent entries from $logfile:"
+              tail -10 "$logfile" || echo "Could not read $logfile"
+              echo ""
+            fi
+          done
+        else
+          echo "No logs directory found"
+        fi
+        echo "Execution completed!"
+
+    - name: Cleanup
+      if: always()
+      run: |
+        pkill -f python || true
+        pkill -f firefox || true
+        pkill -f Xvfb || true
