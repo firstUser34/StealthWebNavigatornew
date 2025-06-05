@@ -1,161 +1,163 @@
-name: Continuous Stealth Bot
+name: Stealth Bot Runner
 
 on:
   schedule:
-    # Run every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       execution_mode:
-        description: 'Execution Mode'
+        description: 'Bot Execution Mode'
         required: true
-        default: 'continuous'
+        default: 'multi'
         type: choice
         options:
-        - single
-        - continuous
-        - firefox
-        - multi
+          - single
+          - continuous
+          - firefox
+          - multi
       execution_time:
-        description: 'Execution time in minutes'
+        description: 'Execution Time (minutes)'
         required: false
         default: '30'
       sleep_time:
-        description: 'Sleep time in minutes'
+        description: 'Sleep Time (minutes)'
         required: false
         default: '5'
 
+env:
+  EXEC_MODE: ${{ github.event.inputs.execution_mode || 'multi' }}
+  EXEC_TIME: ${{ github.event.inputs.execution_time || '30' }}
+  SLEEP_TIME: ${{ github.event.inputs.sleep_time || '5' }}
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
-  stealth-bot:
+
+  setup:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    
+    outputs:
+      exec_mode: ${{ env.EXEC_MODE }}
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Print Execution Mode
+        run: echo "Running mode: $EXEC_MODE"
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        cache: 'pip'
+  shared:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
 
-    - name: Install System Dependencies
-      run: |
-        sudo apt-get update
-        
-        # Install Firefox via snap if apt package fails
-        if ! sudo apt-get install -y firefox; then
-          sudo snap install firefox
-        fi
-        
-        # Install other dependencies
-        sudo apt-get install -y xvfb wget curl
-        
-        # Install latest geckodriver
-        GECKODRIVER_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
-        wget -O geckodriver.tar.gz "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz"
-        tar -xzf geckodriver.tar.gz
-        sudo mv geckodriver /usr/local/bin/
-        sudo chmod +x /usr/local/bin/geckodriver
-        rm geckodriver.tar.gz
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-    - name: Create requirements file
-      run: |
-        cat > requirements.txt << EOF
-        selenium>=4.33.0
-        fake-useragent>=2.2.0
-        requests>=2.32.3
-        python-dotenv>=1.1.0
-        EOF
+      - name: Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y xvfb wget curl jq unzip
 
-    - name: Install Python Dependencies
-      run: |
-        pip install --upgrade pip
-        pip install -r requirements.txt
+          # Firefox Fallback
+          if ! sudo snap install firefox; then
+            wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
+            tar -xjf firefox.tar.bz2
+            sudo mv firefox /opt/
+            sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox
+            rm firefox.tar.bz2
+          fi
 
-    - name: Verify Firefox and Geckodriver
-      run: |
-        firefox --version
-        geckodriver --version
-        which geckodriver
+          # GeckoDriver Latest
+          GECKO_VER=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest | jq -r .tag_name)
+          wget -O geckodriver.tar.gz "https://github.com/mozilla/geckodriver/releases/download/$GECKO_VER/geckodriver-$GECKO_VER-linux64.tar.gz"
+          tar -xzf geckodriver.tar.gz
+          sudo mv geckodriver /usr/local/bin/
+          chmod +x /usr/local/bin/geckodriver
+          rm geckodriver.tar.gz
 
-    - name: Create Logs Directory
-      run: mkdir -p logs
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r project-requirements.txt || pip install -r project_requirements.txt || true
 
-    - name: Run Single Bot Execution
-      if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
-      run: |
-        python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
+      - name: Log Setup Done
+        run: echo "Setup complete at $(date)" > logs/setup_status.log
 
-    - name: Run Firefox Bot
-      if: github.event.inputs.execution_mode == 'firefox'
-      run: |
-        export DISPLAY=:99
-        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-        sleep 3
-        python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 3 --delay-max 7
+  firefox-bot:
+    needs: shared
+    runs-on: ubuntu-latest
+    if: env.EXEC_MODE == 'firefox' || env.EXEC_MODE == 'multi'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Firefox Bot in Loop (if script exists)
+        run: |
+          if [ -f multi_browser_stealth_bot.py ]; then
+            export DISPLAY=:99
+            Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+            while true; do
+              echo "Running Firefox Bot..."
+              python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 2 --delay-max 6 || true
+              echo "Sleeping 2m"
+              sleep 120
+            done
+          else
+            echo "multi_browser_stealth_bot.py not found. Skipping."
+          fi
 
-    - name: Run Continuous Bot
-      if: github.event.inputs.execution_mode == 'continuous'
-      run: |
-        timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
+  continuous-bot:
+    needs: shared
+    runs-on: ubuntu-latest
+    if: env.EXEC_MODE == 'continuous' || env.EXEC_MODE == 'multi'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Continuous Bot in Loop (if script exists)
+        run: |
+          if [ -f continuous_stealth_bot.py ]; then
+            while true; do
+              echo "Running Continuous Bot..."
+              python continuous_stealth_bot.py --mode single --execution-time "$EXEC_TIME" --sleep-time "$SLEEP_TIME" || true
+              sleep 120
+            done
+          else
+            echo "continuous_stealth_bot.py not found. Skipping."
+          fi
 
-    - name: Run Multi-Strategy Bot
-      if: github.event.inputs.execution_mode == 'multi'
-      run: |
-        export DISPLAY=:99
-        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-        sleep 3
-        timeout 45m python continuous_stealth_bot.py --mode multi || true
+  single-bot:
+    needs: shared
+    runs-on: ubuntu-latest
+    if: env.EXEC_MODE == 'single' || github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Single Bot in Loop (if script exists)
+        run: |
+          if [ -f ultimate_stealth_bot.py ]; then
+            while true; do
+              echo "Running Single Bot..."
+              python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8 || true
+              sleep 120
+            done
+          else
+            echo "ultimate_stealth_bot.py not found. Skipping."
+          fi
 
-    - name: Upload Execution Logs
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: stealth-bot-logs-${{ github.run_number }}
-        path: logs/
-        retention-days: 7
-        if-no-files-found: warn
+  upload-logs:
+    needs: [firefox-bot, continuous-bot, single-bot]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Upload Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: stealth-bot-logs-${{ github.run_number }}
+          path: logs/
+          if-no-files-found: ignore
+          retention-days: 5
 
-    - name: Display Execution Summary
-      if: always()
-      run: |
-        echo "=== STEALTH BOT EXECUTION SUMMARY ==="
-        if [ -d "logs" ]; then
-          echo "Log files created:"
-          ls -la logs/ || echo "No log files found"
-          echo ""
-          
-          # Find and display execution reports
-          for report in logs/execution_report_*.json; do
-            if [ -f "$report" ]; then
-              echo "Execution report: $report"
-              if command -v jq >/dev/null 2>&1; then
-                cat "$report" | jq '.'
-              else
-                cat "$report"
-              fi
-              break
-            fi
-          done
-          
-          # Show recent log entries
-          for logfile in logs/*.log; do
-            if [ -f "$logfile" ]; then
-              echo "Recent entries from $logfile:"
-              tail -10 "$logfile" || echo "Could not read $logfile"
-              echo ""
-            fi
-          done
-        else
-          echo "No logs directory found"
-        fi
-        echo "Execution completed!"
-
-    - name: Cleanup
-      if: always()
-      run: |
-        pkill -f python || true
-        pkill -f firefox || true
-        pkill -f Xvfb || true
+      - name: Cleanup Zombie Processes
+        run: |
+          pkill -f python || true
+          pkill -f firefox || true
+          pkill -f Xvfb || true
