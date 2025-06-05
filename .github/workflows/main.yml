@@ -89,10 +89,6 @@ jobs:
     - name: Create Logs Directory
       run: mkdir -p logs
 
-    - name: Run Single Bot Execution
-      if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
-      run: |
-        python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
 
     - name: Run Firefox Bot
       if: github.event.inputs.execution_mode == 'firefox'
@@ -116,6 +112,10 @@ jobs:
       run: |
         timeout 30m python continuous_stealth_bot.py --mode single --execution-time ${{ github.event.inputs.execution_time || '30' }} --sleep-time ${{ github.event.inputs.sleep_time || '5' }} || true
 
+    - name: Run Single Bot Execution
+      if: github.event.inputs.execution_mode == 'single' || github.event_name == 'schedule'
+      run: |
+        python ultimate_stealth_bot.py --categories x_links --delay-min 3 --delay-max 8
 
     - name: Upload Execution Logs
       uses: actions/upload-artifact@v4
