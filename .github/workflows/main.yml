@@ -44,9 +44,15 @@ jobs:
       run: |
         sudo apt-get update
         
-        # Install Firefox via snap if apt package fails
-        if ! sudo apt-get install -y firefox; then
-          sudo snap install firefox
+        # Install Firefox with multiple fallback options
+        if ! sudo snap install firefox; then
+          echo "Snap install failed, trying alternative methods..."
+          # Try downloading Firefox directly
+          wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
+          tar -xjf firefox.tar.bz2
+          sudo mv firefox /opt/
+          sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox
+          rm firefox.tar.bz2
         fi
         
         # Install other dependencies
