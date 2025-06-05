@@ -1,0 +1,57 @@
+{
+  "execution_summary": {
+    "start_time": "2025-06-05T05:50:44.385027",
+    "end_time": "2025-06-05T05:51:37.390271",
+    "execution_time_seconds": 53.01,
+    "total_visits": 11,
+    "successful_visits": 11,
+    "failed_visits": 0,
+    "success_rate_percentage": 100.0,
+    "average_time_per_visit": 4.82
+  },
+  "category_breakdown": {
+    "x_links": {
+      "visited": 11,
+      "successful": 11,
+      "failed": 0,
+      "last_visit": "2025-06-05T05:51:37.389786"
+    },
+    "api_links": {
+      "visited": 0,
+      "successful": 0,
+      "failed": 0,
+      "last_visit": null
+    }
+  },
+  "configuration": {
+    "categories_visited": [
+      "x_links"
+    ],
+    "stealth_features_enabled": {
+      "multiple_sessions": true,
+      "session_rotation": true,
+      "header_randomization": true,
+      "timing_randomization": true,
+      "proxy_rotation": false,
+      "cookie_management": true
+    },
+    "randomization_settings": {
+      "shuffle_urls": true,
+      "random_delays": true,
+      "rotate_user_agents": true,
+      "vary_request_patterns": true
+    },
+    "performance_settings": {
+      "concurrent_requests": 3,
+      "max_workers": 5,
+      "request_timeout": 30,
+      "retry_attempts": 3
+    }
+  },
+  "failed_urls": [],
+  "system_info": {
+    "python_version": "3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]",
+    "platform": "linux",
+    "github_actions": false
+  }
+}

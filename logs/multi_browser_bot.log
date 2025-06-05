@@ -1,0 +1,260 @@
+2025-06-05 05:55:49 | INFO     | === Multi-Browser Stealth Bot Started ===
+2025-06-05 05:55:49 | INFO     | Attempting to create browser driver...
+2025-06-05 05:55:49 | INFO     | Trying Firefox browser...
+2025-06-05 05:55:49 | INFO     | Firefox User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537...
+2025-06-05 05:55:57 | INFO     | Successfully created Firefox driver
+2025-06-05 05:55:57 | INFO     | Using Firefox browser for automation
+2025-06-05 05:55:57 | INFO     | 
+--- Starting category: x_links ---
+2025-06-05 05:55:57 | INFO     | Starting to visit 11 URLs in category: x_links
+2025-06-05 05:55:57 | INFO     | Progress: 1/11 URLs in x_links
+2025-06-05 05:55:57 | INFO     | [x_links_0001] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:56:00 | INFO     | ✓ SUCCESS [x_links_0001] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:56:00 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:00 | INFO     |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:56:00 | INFO     |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:56:00 | INFO     |   ├─ Title: X
+2025-06-05 05:56:00 | INFO     |   ├─ Load Time: 3.466s
+2025-06-05 05:56:00 | INFO     |   ├─ Page Size: 273,624 bytes
+2025-06-05 05:56:00 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:06 | INFO     | Progress: 2/11 URLs in x_links
+2025-06-05 05:56:06 | INFO     | [x_links_0002] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:56:10 | INFO     | ✓ SUCCESS [x_links_0002] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:56:10 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:10 | INFO     |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:56:10 | INFO     |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:56:10 | INFO     |   ├─ Title: X
+2025-06-05 05:56:10 | INFO     |   ├─ Load Time: 3.796s
+2025-06-05 05:56:10 | INFO     |   ├─ Page Size: 271,723 bytes
+2025-06-05 05:56:10 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:19 | INFO     | Progress: 3/11 URLs in x_links
+2025-06-05 05:56:19 | INFO     | [x_links_0003] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:56:25 | INFO     | ✓ SUCCESS [x_links_0003] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:56:25 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:25 | INFO     |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:56:25 | INFO     |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:56:25 | INFO     |   ├─ Title: X
+2025-06-05 05:56:25 | INFO     |   ├─ Load Time: 5.955s
+2025-06-05 05:56:25 | INFO     |   ├─ Page Size: 271,543 bytes
+2025-06-05 05:56:25 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:28 | INFO     | Progress: 4/11 URLs in x_links
+2025-06-05 05:56:28 | INFO     | [x_links_0004] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:56:31 | INFO     | ✓ SUCCESS [x_links_0004] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:56:31 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:31 | INFO     |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:56:31 | INFO     |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:56:31 | INFO     |   ├─ Title: X
+2025-06-05 05:56:31 | INFO     |   ├─ Load Time: 2.98s
+2025-06-05 05:56:31 | INFO     |   ├─ Page Size: 271,543 bytes
+2025-06-05 05:56:31 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:39 | INFO     | Progress: 5/11 URLs in x_links
+2025-06-05 05:56:39 | INFO     | [x_links_0005] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:56:41 | INFO     | ✓ SUCCESS [x_links_0005] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:56:41 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:41 | INFO     |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:56:41 | INFO     |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:56:41 | INFO     |   ├─ Title: X
+2025-06-05 05:56:41 | INFO     |   ├─ Load Time: 1.89s
+2025-06-05 05:56:41 | INFO     |   ├─ Page Size: 271,627 bytes
+2025-06-05 05:56:41 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:49 | INFO     | Progress: 6/11 URLs in x_links
+2025-06-05 05:56:49 | INFO     | [x_links_0006] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:56:51 | INFO     | ✓ SUCCESS [x_links_0006] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:56:51 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:51 | INFO     |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:56:51 | INFO     |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:56:51 | INFO     |   ├─ Title: X
+2025-06-05 05:56:51 | INFO     |   ├─ Load Time: 2.382s
+2025-06-05 05:56:51 | INFO     |   ├─ Page Size: 271,543 bytes
+2025-06-05 05:56:51 | INFO     |   └─ Category: x_links
+2025-06-05 05:56:56 | INFO     | Progress: 7/11 URLs in x_links
+2025-06-05 05:56:56 | INFO     | [x_links_0007] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:56:58 | INFO     | ✓ SUCCESS [x_links_0007] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:56:58 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:56:58 | INFO     |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:56:58 | INFO     |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:56:58 | INFO     |   ├─ Title: X
+2025-06-05 05:56:58 | INFO     |   ├─ Load Time: 1.742s
+2025-06-05 05:56:58 | INFO     |   ├─ Page Size: 271,547 bytes
+2025-06-05 05:56:58 | INFO     |   └─ Category: x_links
+2025-06-05 05:57:06 | INFO     | Progress: 8/11 URLs in x_links
+2025-06-05 05:57:06 | INFO     | [x_links_0008] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:57:08 | INFO     | ✓ SUCCESS [x_links_0008] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:57:08 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:57:08 | INFO     |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:57:08 | INFO     |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:57:08 | INFO     |   ├─ Title: X
+2025-06-05 05:57:08 | INFO     |   ├─ Load Time: 1.501s
+2025-06-05 05:57:08 | INFO     |   ├─ Page Size: 271,539 bytes
+2025-06-05 05:57:08 | INFO     |   └─ Category: x_links
+2025-06-05 05:57:15 | INFO     | Progress: 9/11 URLs in x_links
+2025-06-05 05:57:15 | INFO     | [x_links_0009] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:57:16 | INFO     | ✓ SUCCESS [x_links_0009] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:57:16 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:57:16 | INFO     |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:57:16 | INFO     |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:57:16 | INFO     |   ├─ Title: X
+2025-06-05 05:57:16 | INFO     |   ├─ Load Time: 1.141s
+2025-06-05 05:57:16 | INFO     |   ├─ Page Size: 271,547 bytes
+2025-06-05 05:57:16 | INFO     |   └─ Category: x_links
+2025-06-05 05:57:22 | INFO     | Progress: 10/11 URLs in x_links
+2025-06-05 05:57:22 | INFO     | [x_links_0010] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:57:23 | INFO     | ✓ SUCCESS [x_links_0010] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:57:23 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:57:23 | INFO     |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:57:23 | INFO     |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:57:23 | INFO     |   ├─ Title: X
+2025-06-05 05:57:23 | INFO     |   ├─ Load Time: 1.229s
+2025-06-05 05:57:23 | INFO     |   ├─ Page Size: 271,547 bytes
+2025-06-05 05:57:23 | INFO     |   └─ Category: x_links
+2025-06-05 05:57:29 | INFO     | Progress: 11/11 URLs in x_links
+2025-06-05 05:57:29 | INFO     | [x_links_0011] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:57:30 | INFO     | ✓ SUCCESS [x_links_0011] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:57:30 | INFO     |   ├─ Browser: Firefox
+2025-06-05 05:57:30 | INFO     |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:57:30 | INFO     |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:57:30 | INFO     |   ├─ Title: X
+2025-06-05 05:57:30 | INFO     |   ├─ Load Time: 1.101s
+2025-06-05 05:57:30 | INFO     |   ├─ Page Size: 270,333 bytes
+2025-06-05 05:57:30 | INFO     |   └─ Category: x_links
+2025-06-05 05:57:35 | INFO     | --- Completed category: x_links ---
+2025-06-05 05:57:35 | INFO     | Report saved: logs/browser_report_20250605_055735.json
+2025-06-05 05:57:35 | INFO     | 
+=== EXECUTION SUMMARY ===
+2025-06-05 05:57:35 | INFO     | Browser Used: Firefox
+2025-06-05 05:57:35 | INFO     | Total Visits: 11
+2025-06-05 05:57:35 | INFO     | Successful: 11
+2025-06-05 05:57:35 | INFO     | Failed: 0
+2025-06-05 05:57:35 | INFO     | Success Rate: 100.0%
+2025-06-05 05:57:36 | INFO     | Browser driver closed successfully
+2025-06-05 05:57:36 | INFO     | === Multi-Browser Stealth Bot Completed ===
+2025-06-05 06:03:50 | INFO     | === Multi-Browser Stealth Bot Started ===
+2025-06-05 06:03:50 | INFO     | Attempting to create browser driver...
+2025-06-05 06:03:50 | INFO     | Trying Firefox browser...
+2025-06-05 06:03:50 | INFO     | Firefox User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...
+2025-06-05 06:03:52 | INFO     | Successfully created Firefox driver
+2025-06-05 06:03:52 | INFO     | Using Firefox browser for automation
+2025-06-05 06:03:52 | INFO     | 
+--- Starting category: x_links ---
+2025-06-05 06:03:52 | INFO     | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:03:52 | INFO     | Progress: 1/11 URLs in x_links
+2025-06-05 06:03:52 | INFO     | [x_links_0001] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:54 | INFO     | ✓ SUCCESS [x_links_0001] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:54 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:03:54 | INFO     |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:54 | INFO     |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:54 | INFO     |   ├─ Title: X
+2025-06-05 06:03:54 | INFO     |   ├─ Load Time: 1.691s
+2025-06-05 06:03:54 | INFO     |   ├─ Page Size: 272,026 bytes
+2025-06-05 06:03:54 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:01 | INFO     | Progress: 2/11 URLs in x_links
+2025-06-05 06:04:01 | INFO     | [x_links_0002] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:03 | INFO     | ✓ SUCCESS [x_links_0002] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:03 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:03 | INFO     |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:03 | INFO     |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:03 | INFO     |   ├─ Title: X
+2025-06-05 06:04:03 | INFO     |   ├─ Load Time: 1.598s
+2025-06-05 06:04:03 | INFO     |   ├─ Page Size: 271,906 bytes
+2025-06-05 06:04:03 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:08 | INFO     | Progress: 3/11 URLs in x_links
+2025-06-05 06:04:08 | INFO     | [x_links_0003] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:09 | INFO     | ✓ SUCCESS [x_links_0003] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:09 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:09 | INFO     |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:09 | INFO     |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:09 | INFO     |   ├─ Title: X
+2025-06-05 06:04:09 | INFO     |   ├─ Load Time: 1.424s
+2025-06-05 06:04:09 | INFO     |   ├─ Page Size: 271,683 bytes
+2025-06-05 06:04:09 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:16 | INFO     | Progress: 4/11 URLs in x_links
+2025-06-05 06:04:16 | INFO     | [x_links_0004] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:18 | INFO     | ✓ SUCCESS [x_links_0004] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:18 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:18 | INFO     |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:18 | INFO     |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:18 | INFO     |   ├─ Title: X
+2025-06-05 06:04:18 | INFO     |   ├─ Load Time: 1.648s
+2025-06-05 06:04:18 | INFO     |   ├─ Page Size: 272,763 bytes
+2025-06-05 06:04:18 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:26 | INFO     | Progress: 5/11 URLs in x_links
+2025-06-05 06:04:26 | INFO     | [x_links_0005] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:27 | INFO     | ✓ SUCCESS [x_links_0005] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:27 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:27 | INFO     |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:27 | INFO     |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:27 | INFO     |   ├─ Title: X
+2025-06-05 06:04:27 | INFO     |   ├─ Load Time: 1.117s
+2025-06-05 06:04:27 | INFO     |   ├─ Page Size: 271,904 bytes
+2025-06-05 06:04:27 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:33 | INFO     | Progress: 6/11 URLs in x_links
+2025-06-05 06:04:33 | INFO     | [x_links_0006] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:35 | INFO     | ✓ SUCCESS [x_links_0006] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:35 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:35 | INFO     |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:35 | INFO     |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:35 | INFO     |   ├─ Title: X
+2025-06-05 06:04:35 | INFO     |   ├─ Load Time: 1.996s
+2025-06-05 06:04:35 | INFO     |   ├─ Page Size: 271,910 bytes
+2025-06-05 06:04:35 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:41 | INFO     | Progress: 7/11 URLs in x_links
+2025-06-05 06:04:41 | INFO     | [x_links_0007] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:04:42 | INFO     | ✓ SUCCESS [x_links_0007] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:04:42 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:42 | INFO     |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:04:42 | INFO     |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:04:42 | INFO     |   ├─ Title: X
+2025-06-05 06:04:42 | INFO     |   ├─ Load Time: 1.45s
+2025-06-05 06:04:42 | INFO     |   ├─ Page Size: 271,914 bytes
+2025-06-05 06:04:42 | INFO     |   └─ Category: x_links
+2025-06-05 06:04:50 | INFO     | Progress: 8/11 URLs in x_links
+2025-06-05 06:04:50 | INFO     | [x_links_0008] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:51 | INFO     | ✓ SUCCESS [x_links_0008] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:51 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:04:51 | INFO     |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:51 | INFO     |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:51 | INFO     |   ├─ Title: X
+2025-06-05 06:04:51 | INFO     |   ├─ Load Time: 1.24s
+2025-06-05 06:04:51 | INFO     |   ├─ Page Size: 272,000 bytes
+2025-06-05 06:04:51 | INFO     |   └─ Category: x_links
+2025-06-05 06:05:00 | INFO     | Progress: 9/11 URLs in x_links
+2025-06-05 06:05:00 | INFO     | [x_links_0009] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:05:01 | INFO     | ✓ SUCCESS [x_links_0009] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:05:01 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:05:01 | INFO     |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:05:01 | INFO     |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:05:01 | INFO     |   ├─ Title: X
+2025-06-05 06:05:01 | INFO     |   ├─ Load Time: 0.975s
+2025-06-05 06:05:01 | INFO     |   ├─ Page Size: 271,910 bytes
+2025-06-05 06:05:01 | INFO     |   └─ Category: x_links
+2025-06-05 06:05:08 | INFO     | Progress: 10/11 URLs in x_links
+2025-06-05 06:05:08 | INFO     | [x_links_0010] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:05:09 | INFO     | ✓ SUCCESS [x_links_0010] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:05:09 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:05:09 | INFO     |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:05:09 | INFO     |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:05:09 | INFO     |   ├─ Title: X
+2025-06-05 06:05:09 | INFO     |   ├─ Load Time: 1.088s
+2025-06-05 06:05:09 | INFO     |   ├─ Page Size: 271,914 bytes
+2025-06-05 06:05:09 | INFO     |   └─ Category: x_links
+2025-06-05 06:05:15 | INFO     | Progress: 11/11 URLs in x_links
+2025-06-05 06:05:15 | INFO     | [x_links_0011] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:05:16 | INFO     | ✓ SUCCESS [x_links_0011] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:05:16 | INFO     |   ├─ Browser: Firefox
+2025-06-05 06:05:16 | INFO     |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:05:16 | INFO     |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:05:16 | INFO     |   ├─ Title: X
+2025-06-05 06:05:16 | INFO     |   ├─ Load Time: 1.241s
+2025-06-05 06:05:16 | INFO     |   ├─ Page Size: 271,906 bytes
+2025-06-05 06:05:16 | INFO     |   └─ Category: x_links
+2025-06-05 06:05:25 | INFO     | --- Completed category: x_links ---
+2025-06-05 06:05:25 | INFO     | Report saved: logs/browser_report_20250605_060525.json
+2025-06-05 06:05:25 | INFO     | 
+=== EXECUTION SUMMARY ===
+2025-06-05 06:05:25 | INFO     | Browser Used: Firefox
+2025-06-05 06:05:25 | INFO     | Total Visits: 11
+2025-06-05 06:05:25 | INFO     | Successful: 11
+2025-06-05 06:05:25 | INFO     | Failed: 0
+2025-06-05 06:05:25 | INFO     | Success Rate: 100.0%
+2025-06-05 06:05:26 | INFO     | Browser driver closed successfully
+2025-06-05 06:05:26 | INFO     | === Multi-Browser Stealth Bot Completed ===

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-06-05 05:53:01",
+  "total_urls": 2,
+  "successful_visits": 0,
+  "failed_visits": 2,
+  "success_rate": 0.0,
+  "failed_urls": [],
+  "proxy_used": null,
+  "stealth_enabled": true
+}

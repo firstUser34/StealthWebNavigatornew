@@ -1,0 +1,445 @@
+2025-06-05 05:44:11 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:44:11 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:44:11 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:44:11 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:44:11 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:44:11 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:44:11 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:44:11 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:44:11 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:44:11 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:44:11 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:44:11 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:44:11 | INFO     | Headless mode: True
+2025-06-05 05:44:11 | INFO     | Headless mode: True
+2025-06-05 05:44:11 | INFO     | Stealth mode: True
+2025-06-05 05:44:11 | INFO     | Initializing stealth features...
+2025-06-05 05:44:11 | INFO     | Stealth mode: True
+2025-06-05 05:44:11 | INFO     | Starting bot execution...
+2025-06-05 05:44:11 | INFO     | Initializing stealth features...
+2025-06-05 05:44:11 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:44:11 | INFO     | Starting bot execution...
+2025-06-05 05:44:11 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:44:11 | INFO     | Using User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap...
+2025-06-05 05:44:11 | INFO     | Using User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac...
+2025-06-05 05:44:12 | ERROR    | Failed to create Chrome driver: [Errno 2] No such file or directory: '/home/runner/.local/share/undetected_chromedriver/undetected/chromedriver-linux64/chromedriver' -> '/home/runner/.local/share/undetected_chromedriver/undetected_chromedriver'
+2025-06-05 05:44:12 | ERROR    | Fatal error during bot execution: [Errno 2] No such file or directory: '/home/runner/.local/share/undetected_chromedriver/undetected/chromedriver-linux64/chromedriver' -> '/home/runner/.local/share/undetected_chromedriver/undetected_chromedriver'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 446, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 204, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 258, in __init__
+    self.patcher.auto()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/patcher.py", line 178, in auto
+    self.unzip_package(self.fetch_package())
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/patcher.py", line 310, in unzip_package
+    os.rename(os.path.join(self.zip_path, exe_path), self.executable_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/.local/share/undetected_chromedriver/undetected/chromedriver-linux64/chromedriver' -> '/home/runner/.local/share/undetected_chromedriver/undetected_chromedriver'
+2025-06-05 05:44:12 | INFO     | Cleaning up resources...
+2025-06-05 05:44:12 | INFO     | === Execution Summary ===
+2025-06-05 05:44:12 | INFO     | Total URLs: 2
+2025-06-05 05:44:12 | INFO     | Successful: 0
+2025-06-05 05:44:12 | INFO     | Failed: 2
+2025-06-05 05:44:12 | INFO     | Success Rate: 0.0%
+2025-06-05 05:44:12 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:44:12 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:44:12 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:44:12 | WARNING  | Some URLs failed. Check logs for details.
+2025-06-05 05:44:12 | ERROR    | Failed to create Chrome driver: Binary Location Must be a String
+2025-06-05 05:44:12 | ERROR    | Fatal error during bot execution: Binary Location Must be a String
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 446, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 204, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 372, in __init__
+    options.binary_location = (
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/options.py", line 50, in binary_location
+    raise TypeError(self.BINARY_LOCATION_ERROR)
+TypeError: Binary Location Must be a String
+2025-06-05 05:44:12 | INFO     | Cleaning up resources...
+2025-06-05 05:44:12 | INFO     | === Execution Summary ===
+2025-06-05 05:44:12 | INFO     | Total URLs: 2
+2025-06-05 05:44:12 | INFO     | Successful: 0
+2025-06-05 05:44:12 | INFO     | Failed: 2
+2025-06-05 05:44:12 | INFO     | Success Rate: 0.0%
+2025-06-05 05:44:12 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:44:12 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:44:12 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:44:12 | WARNING  | Some URLs failed. Check logs for details.
+2025-06-05 05:46:39 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:46:39 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:46:39 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:46:39 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:46:39 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:46:39 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:46:39 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:46:39 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:46:39 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:46:39 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:46:39 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:46:39 | INFO     | Headless mode: True
+2025-06-05 05:46:39 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:46:39 | INFO     | Stealth mode: True
+2025-06-05 05:46:39 | INFO     | Initializing stealth features...
+2025-06-05 05:46:39 | INFO     | Headless mode: True
+2025-06-05 05:46:39 | INFO     | Starting bot execution...
+2025-06-05 05:46:39 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:46:39 | INFO     | Stealth mode: True
+2025-06-05 05:46:39 | INFO     | Initializing stealth features...
+2025-06-05 05:46:39 | INFO     | Starting bot execution...
+2025-06-05 05:46:39 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:46:39 | INFO     | Using User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD...
+2025-06-05 05:46:39 | INFO     | Using User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LR...
+2025-06-05 05:46:39 | WARNING  | Undetected Chrome failed: [Errno 2] No such file or directory: '/home/runner/.local/share/undetected_chromedriver/undetected/chromedriver-linux64/chromedriver' -> '/home/runner/.local/share/undetected_chromedriver/undetected_chromedriver'
+2025-06-05 05:46:39 | INFO     | Falling back to regular Chrome WebDriver...
+2025-06-05 05:46:39 | WARNING  | Undetected Chrome failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:39 | INFO     | Falling back to regular Chrome WebDriver...
+2025-06-05 05:46:40 | ERROR    | Failed to create Chrome driver: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | INFO     | Attempting final fallback to basic Chrome driver...
+2025-06-05 05:46:40 | ERROR    | Failed to create Chrome driver: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | INFO     | Attempting final fallback to basic Chrome driver...
+2025-06-05 05:46:40 | ERROR    | All driver creation attempts failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | ERROR    | All driver creation attempts failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | ERROR    | Fatal error during bot execution: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 242, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 258, in __init__
+    self.patcher.auto()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/patcher.py", line 178, in auto
+    self.unzip_package(self.fetch_package())
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/patcher.py", line 310, in unzip_package
+    os.rename(os.path.join(self.zip_path, exe_path), self.executable_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/.local/share/undetected_chromedriver/undetected/chromedriver-linux64/chromedriver' -> '/home/runner/.local/share/undetected_chromedriver/undetected_chromedriver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 258, in _create_driver
+    driver = Chrome(options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 282, in _create_driver
+    driver = Chrome(options=basic_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 519, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 287, in _create_driver
+    raise Exception(f"Cannot create Chrome driver. Original error: {e}, Final error: {final_error}")
+Exception: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | ERROR    | Fatal error during bot execution: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 242, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 258, in _create_driver
+    driver = Chrome(options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 282, in _create_driver
+    driver = Chrome(options=basic_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 519, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 287, in _create_driver
+    raise Exception(f"Cannot create Chrome driver. Original error: {e}, Final error: {final_error}")
+Exception: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:46:40 | INFO     | Cleaning up resources...
+2025-06-05 05:46:40 | INFO     | Cleaning up resources...
+2025-06-05 05:46:40 | INFO     | === Execution Summary ===
+2025-06-05 05:46:40 | INFO     | === Execution Summary ===
+2025-06-05 05:46:40 | INFO     | Total URLs: 2
+2025-06-05 05:46:40 | INFO     | Total URLs: 2
+2025-06-05 05:46:40 | INFO     | Successful: 0
+2025-06-05 05:46:40 | INFO     | Successful: 0
+2025-06-05 05:46:40 | INFO     | Failed: 2
+2025-06-05 05:46:40 | INFO     | Failed: 2
+2025-06-05 05:46:40 | INFO     | Success Rate: 0.0%
+2025-06-05 05:46:40 | INFO     | Success Rate: 0.0%
+2025-06-05 05:46:40 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:46:40 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:46:40 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:46:40 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:46:40 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:46:40 | WARNING  | Some URLs failed. Check logs for details.
+2025-06-05 05:46:40 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:46:40 | WARNING  | Some URLs failed. Check logs for details.
+2025-06-05 05:53:00 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:53:00 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:53:00 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:53:00 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:53:00 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:53:00 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:53:00 | INFO     | Headless mode: True
+2025-06-05 05:53:00 | INFO     | Stealth mode: True
+2025-06-05 05:53:00 | INFO     | Initializing stealth features...
+2025-06-05 05:53:00 | INFO     | Starting bot execution...
+2025-06-05 05:53:00 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:53:00 | INFO     | Using User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac...
+2025-06-05 05:53:00 | INFO     | Logger initialized - Level: INFO
+2025-06-05 05:53:00 | INFO     | Log directory: /home/runner/workspace/logs
+2025-06-05 05:53:00 | INFO     | === Advanced Selenium Stealth Bot Started ===
+2025-06-05 05:53:00 | INFO     | Python version: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-06-05 05:53:00 | INFO     | Working directory: /home/runner/workspace
+2025-06-05 05:53:00 | INFO     | Configured to visit 2 URLs
+2025-06-05 05:53:00 | INFO     | Headless mode: True
+2025-06-05 05:53:00 | INFO     | Stealth mode: True
+2025-06-05 05:53:00 | INFO     | Initializing stealth features...
+2025-06-05 05:53:00 | INFO     | Starting bot execution...
+2025-06-05 05:53:00 | INFO     | Creating stealth Chrome driver...
+2025-06-05 05:53:00 | INFO     | Using User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537...
+2025-06-05 05:53:01 | WARNING  | Undetected Chrome failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Falling back to regular Chrome WebDriver...
+2025-06-05 05:53:01 | ERROR    | Failed to create Chrome driver: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Attempting final fallback to basic Chrome driver...
+2025-06-05 05:53:01 | WARNING  | Undetected Chrome failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Falling back to regular Chrome WebDriver...
+2025-06-05 05:53:01 | ERROR    | All driver creation attempts failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | ERROR    | Fatal error during bot execution: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 242, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 258, in _create_driver
+    driver = Chrome(options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 282, in _create_driver
+    driver = Chrome(options=basic_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 519, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 287, in _create_driver
+    raise Exception(f"Cannot create Chrome driver. Original error: {e}, Final error: {final_error}")
+Exception: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Cleaning up resources...
+2025-06-05 05:53:01 | INFO     | === Execution Summary ===
+2025-06-05 05:53:01 | INFO     | Total URLs: 2
+2025-06-05 05:53:01 | INFO     | Successful: 0
+2025-06-05 05:53:01 | INFO     | Failed: 2
+2025-06-05 05:53:01 | INFO     | Success Rate: 0.0%
+2025-06-05 05:53:01 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:53:01 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:53:01 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:53:01 | WARNING  | Some URLs failed. Check logs for details.
+2025-06-05 05:53:01 | ERROR    | Failed to create Chrome driver: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Attempting final fallback to basic Chrome driver...
+2025-06-05 05:53:01 | ERROR    | All driver creation attempts failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | ERROR    | Fatal error during bot execution: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 242, in _create_driver
+    driver = uc.Chrome(
+             ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 258, in _create_driver
+    driver = Chrome(options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 282, in _create_driver
+    driver = Chrome(options=basic_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 58, in __init__
+    self.service.start()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/stealth_bot.py", line 519, in run
+    self.driver = self._create_driver()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/stealth_bot.py", line 287, in _create_driver
+    raise Exception(f"Cannot create Chrome driver. Original error: {e}, Final error: {final_error}")
+Exception: Cannot create Chrome driver. Original error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+, Final error: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2025-06-05 05:53:01 | INFO     | Cleaning up resources...
+2025-06-05 05:53:01 | INFO     | === Execution Summary ===
+2025-06-05 05:53:01 | INFO     | Total URLs: 2
+2025-06-05 05:53:01 | INFO     | Successful: 0
+2025-06-05 05:53:01 | INFO     | Failed: 2
+2025-06-05 05:53:01 | INFO     | Success Rate: 0.0%
+2025-06-05 05:53:01 | INFO     | Summary report saved to: logs/summary.json
+2025-06-05 05:53:01 | INFO     | === Bot Execution Completed ===
+2025-06-05 05:53:01 | INFO     | Successfully visited: 0/2 URLs
+2025-06-05 05:53:01 | WARNING  | Some URLs failed. Check logs for details.

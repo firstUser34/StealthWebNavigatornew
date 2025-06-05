@@ -1,0 +1,32 @@
+# Advanced Selenium Stealth Bot - Project Dependencies
+# Core automation and stealth libraries
+
+selenium>=4.15.0
+undetected-chromedriver>=3.5.0
+fake-useragent>=1.4.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Enhanced stealth capabilities
+pyautogui>=0.9.54
+pynput>=1.7.6
+pysocks>=1.7.1
+browser-cookie3>=0.19.1
+user-agents>=2.2.0
+
+# Performance monitoring
+psutil>=5.9.0
+memory-profiler>=0.61.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional advanced features
+# Pillow>=10.0.0  # Image processing
+# opencv-python>=4.8.0  # Computer vision
+# scikit-learn>=1.3.0  # Machine learning
+# cryptography>=41.0.0  # Encryption
+# stem>=1.8.1  # Tor integration

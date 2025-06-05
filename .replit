@@ -1,0 +1,76 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["geckodriver", "chromium", "firefox"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Stealth Bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "test_stealth_bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Ultimate Stealth Bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Multi-Browser Bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Continuous Stealth Bot"
+
+[[workflows.workflow]]
+name = "Stealth Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install selenium undetected-chromedriver fake-useragent requests python-dotenv && python main.py --headless --log-level INFO --urls \"https://httpbin.org/ip,https://httpbin.org/user-agent\" --delay-min 1 --delay-max 2"
+
+[[workflows.workflow]]
+name = "test_stealth_bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install selenium undetected-chromedriver fake-useragent requests python-dotenv && python main.py --headless --urls \"https://httpbin.org/ip,https://httpbin.org/user-agent\" --log-level INFO"
+
+[[workflows.workflow]]
+name = "Ultimate Stealth Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python ultimate_stealth_bot.py --categories x_links --delay-min 2 --delay-max 5"
+
+[[workflows.workflow]]
+name = "Multi-Browser Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python multi_browser_stealth_bot.py --categories x_links --browser firefox --headless --delay-min 2 --delay-max 5"
+
+[[workflows.workflow]]
+name = "Continuous Stealth Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python continuous_stealth_bot.py --mode single --execution-time 10 --sleep-time 2"
+
+[deployment]
+run = ["sh", "-c", "pip install selenium undetected-chromedriver fake-useragent requests python-dotenv && python main.py --headless --log-level INFO --urls \"https://httpbin.org/ip,https://httpbin.org/user-agent\" --delay-min 1 --delay-max 2"]

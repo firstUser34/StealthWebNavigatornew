@@ -1,0 +1,861 @@
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,187 bytes
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.149s
+2025-06-05 05:50:44 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,600 bytes
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.109s
+2025-06-05 05:50:48 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,187 bytes
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.126s
+2025-06-05 05:50:55 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:50:58 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 05:50:58 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,600 bytes
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.281s
+2025-06-05 05:50:59 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,589 bytes
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.126s
+2025-06-05 05:51:04 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,589 bytes
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.114s
+2025-06-05 05:51:13 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,600 bytes
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.119s
+2025-06-05 05:51:18 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,187 bytes
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.107s
+2025-06-05 05:51:22 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,595 bytes
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.107s
+2025-06-05 05:51:26 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,600 bytes
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.107s
+2025-06-05 05:51:32 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:507 | Progress: 11/11 URLs in x_links
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:319 | [x_links_0011] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0011] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,187 bytes
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.188s
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:589 | --- Completed category: x_links ---
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:566 | Comprehensive report saved: logs/execution_report_20250605_055137.json
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:601 | 
+=== EXECUTION SUMMARY ===
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:603 | Total Visits: 11
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:604 | Successful: 11
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:605 | Failed: 0
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:606 | Success Rate: 100.0%
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:607 | Execution Time: 53.01s
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:608 | Average Time/Visit: 4.82s
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:611 | 
+=== CATEGORY BREAKDOWN ===
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:613 | x_links: 11/11 successful
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:613 | api_links: 0/0 successful
+2025-06-05 05:51:37 | INFO     | ultimate_stealth_bot:622 | === Ultimate Stealth Bot Execution Completed ===
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 05:52:59 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,583 bytes
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.156s
+2025-06-05 05:53:00 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,134 bytes
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.126s
+2025-06-05 05:53:05 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,588 bytes
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.149s
+2025-06-05 05:53:14 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,678 bytes
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.111s
+2025-06-05 05:53:21 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:26 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 05:53:26 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,668 bytes
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.122s
+2025-06-05 05:53:27 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.119s
+2025-06-05 05:53:37 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:41 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 05:53:41 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.107s
+2025-06-05 05:53:42 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,577 bytes
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.106s
+2025-06-05 05:53:46 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,577 bytes
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.108s
+2025-06-05 05:53:50 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,588 bytes
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.121s
+2025-06-05 05:53:53 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:507 | Progress: 11/11 URLs in x_links
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:319 | [x_links_0011] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0011] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,176 bytes
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.122s
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:589 | --- Completed category: x_links ---
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:566 | Comprehensive report saved: logs/execution_report_20250605_055403.json
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:601 | 
+=== EXECUTION SUMMARY ===
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:603 | Total Visits: 11
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:604 | Successful: 11
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:605 | Failed: 0
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:606 | Success Rate: 100.0%
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:607 | Execution Time: 63.91s
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:608 | Average Time/Visit: 5.81s
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:611 | 
+=== CATEGORY BREAKDOWN ===
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:613 | x_links: 11/11 successful
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:613 | api_links: 0/0 successful
+2025-06-05 05:54:03 | INFO     | ultimate_stealth_bot:622 | === Ultimate Stealth Bot Execution Completed ===
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,545 bytes
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.146s
+2025-06-05 06:00:20 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,545 bytes
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.107s
+2025-06-05 06:00:27 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,958 bytes
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.121s
+2025-06-05 06:00:31 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,958 bytes
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.118s
+2025-06-05 06:00:38 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,546 bytes
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.139s
+2025-06-05 06:00:49 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 261,048 bytes
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.112s
+2025-06-05 06:00:57 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,635 bytes
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.116s
+2025-06-05 06:01:02 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:09 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 06:01:09 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,947 bytes
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.128s
+2025-06-05 06:01:10 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 261,048 bytes
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.114s
+2025-06-05 06:01:16 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,546 bytes
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.111s
+2025-06-05 06:01:31 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:507 | Progress: 11/11 URLs in x_links
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:319 | [x_links_0011] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0011] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,947 bytes
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.125s
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:589 | --- Completed category: x_links ---
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:566 | Comprehensive report saved: logs/execution_report_20250605_060139.json
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:601 | 
+=== EXECUTION SUMMARY ===
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:603 | Total Visits: 11
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:604 | Successful: 11
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:605 | Failed: 0
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:606 | Success Rate: 100.0%
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:607 | Execution Time: 78.45s
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:608 | Average Time/Visit: 7.13s
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:611 | 
+=== CATEGORY BREAKDOWN ===
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:613 | x_links: 11/11 successful
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:613 | api_links: 0/0 successful
+2025-06-05 06:01:39 | INFO     | ultimate_stealth_bot:622 | === Ultimate Stealth Bot Execution Completed ===
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,938 bytes
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.145s
+2025-06-05 06:03:39 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,938 bytes
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.109s
+2025-06-05 06:03:44 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,949 bytes
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.144s
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.093s
+2025-06-05 06:03:50 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,536 bytes
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.116s
+2025-06-05 06:03:53 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.056s
+2025-06-05 06:03:57 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,536 bytes
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.121s
+2025-06-05 06:03:58 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Snax4ogs/status/1930201674355814471
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.05s
+2025-06-05 06:04:05 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,949 bytes
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.112s
+2025-06-05 06:04:10 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.056s
+2025-06-05 06:04:11 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,949 bytes
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.105s
+2025-06-05 06:04:14 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.05s
+2025-06-05 06:04:17 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,950 bytes
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.115s
+2025-06-05 06:04:21 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.075s
+2025-06-05 06:04:23 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,949 bytes
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.111s
+2025-06-05 06:04:24 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,944 bytes
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.116s
+2025-06-05 06:04:27 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.057s
+2025-06-05 06:04:31 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,949 bytes
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.113s
+2025-06-05 06:04:32 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,626 bytes
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.111s
+2025-06-05 06:04:36 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.06s
+2025-06-05 06:04:42 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.05s
+2025-06-05 06:04:47 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:507 | Progress: 11/11 URLs in x_links
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:319 | [x_links_0011] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0011] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 261,034 bytes
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.105s
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:589 | --- Completed category: x_links ---
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:566 | Comprehensive report saved: logs/execution_report_20250605_060449.json
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:601 | 
+=== EXECUTION SUMMARY ===
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:603 | Total Visits: 11
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:604 | Successful: 11
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:605 | Failed: 0
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:606 | Success Rate: 100.0%
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:607 | Execution Time: 59.83s
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:608 | Average Time/Visit: 5.44s
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:611 | 
+=== CATEGORY BREAKDOWN ===
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:613 | x_links: 11/11 successful
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:613 | api_links: 0/0 successful
+2025-06-05 06:04:49 | INFO     | ultimate_stealth_bot:622 | === Ultimate Stealth Bot Execution Completed ===
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.067s
+2025-06-05 06:04:54 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:507 | Progress: 11/11 URLs in x_links
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:319 | [x_links_0011] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0011] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 403
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 0 bytes
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: unknown
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.051s
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:589 | --- Completed category: x_links ---
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:566 | Comprehensive report saved: logs/execution_report_20250605_060504.json
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:601 | 
+=== EXECUTION SUMMARY ===
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:603 | Total Visits: 11
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:604 | Successful: 11
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:605 | Failed: 0
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:606 | Success Rate: 100.0%
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:607 | Execution Time: 74.01s
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:608 | Average Time/Visit: 6.73s
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:611 | 
+=== CATEGORY BREAKDOWN ===
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:613 | x_links: 11/11 successful
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:613 | api_links: 0/0 successful
+2025-06-05 06:05:04 | INFO     | ultimate_stealth_bot:622 | === Ultimate Stealth Bot Execution Completed ===
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:229 | Stealth infrastructure setup for 2 categories
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:575 | === Ultimate Stealth Bot - Single Execution Started ===
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:576 | Categories to visit: ['x_links']
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:577 | Stealth features: ['multiple_sessions', 'session_rotation', 'header_randomization', 'timing_randomization', 'proxy_rotation', 'cookie_management']
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:584 | 
+--- Starting category: x_links ---
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:501 | Starting to visit 11 URLs in category: x_links
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:507 | Progress: 1/11 URLs in x_links
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:319 | [x_links_0001] VISITING: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0001] - URL: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Hitansh54/status/1930194500724334705
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.144s
+2025-06-05 06:07:04 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:08 | INFO     | ultimate_stealth_bot:507 | Progress: 2/11 URLs in x_links
+2025-06-05 06:07:08 | INFO     | ultimate_stealth_bot:319 | [x_links_0002] VISITING: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0002] - URL: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Rahul113383/status/1930205881255239751
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.123s
+2025-06-05 06:07:09 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:15 | INFO     | ultimate_stealth_bot:507 | Progress: 3/11 URLs in x_links
+2025-06-05 06:07:15 | INFO     | ultimate_stealth_bot:319 | [x_links_0003] VISITING: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0003] - URL: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil_gopanii/status/1930207213521412417
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,588 bytes
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.115s
+2025-06-05 06:07:16 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:507 | Progress: 4/11 URLs in x_links
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:319 | [x_links_0004] VISITING: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0004] - URL: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930284895202377904
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,583 bytes
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.126s
+2025-06-05 06:07:19 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:507 | Progress: 5/11 URLs in x_links
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:319 | [x_links_0005] VISITING: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0005] - URL: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/sahil2dev/status/1930204847598428283
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.114s
+2025-06-05 06:07:27 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:31 | INFO     | ultimate_stealth_bot:507 | Progress: 6/11 URLs in x_links
+2025-06-05 06:07:31 | INFO     | ultimate_stealth_bot:319 | [x_links_0006] VISITING: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0006] - URL: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/Raj45307/status/1930202834756071790
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,583 bytes
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.125s
+2025-06-05 06:07:32 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:507 | Progress: 7/11 URLs in x_links
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:319 | [x_links_0007] VISITING: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0007] - URL: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929125757801890030
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,588 bytes
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.129s
+2025-06-05 06:07:35 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:507 | Progress: 8/11 URLs in x_links
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:319 | [x_links_0008] VISITING: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0008] - URL: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/CoinWipe42313/status/1930197012625969263
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,583 bytes
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.13s
+2025-06-05 06:07:42 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:507 | Progress: 9/11 URLs in x_links
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:319 | [x_links_0009] VISITING: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0009] - URL: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/AlCoinverse/status/1929512117993910469
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 260,588 bytes
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.264s
+2025-06-05 06:07:48 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:507 | Progress: 10/11 URLs in x_links
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:319 | [x_links_0010] VISITING: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:350 | ✓ SUCCESS [x_links_0010] - URL: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:351 |   ├─ Original: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:352 |   ├─ Final: https://x.com/ArjunMehra985/status/1930199659798032610
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:353 |   ├─ Status: 200
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:354 |   ├─ Title: N/A...
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:355 |   ├─ Size: 276,175 bytes
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:356 |   ├─ Type: text/html; charset=utf-8
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:357 |   ├─ Load Time: 0.114s
+2025-06-05 06:07:54 | INFO     | ultimate_stealth_bot:358 |   └─ Category: x_links
