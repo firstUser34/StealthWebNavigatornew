@@ -6,17 +6,16 @@ Add your URLs here for the stealth bot to visit automatically
 
 # X/Twitter Links - High Priority Targets
 X_LINKS = [
-    "https://x.com/Hitansh54/status/1930194500724334705",
-    "https://x.com/ArjunMehra985/status/1930199659798032610",
-    "https://x.com/sahil_gopanii/status/1930207213521412417",
-    "https://x.com/AlCoinverse/status/1929125757801890030",
-    "https://x.com/Raj45307/status/1930202834756071790",
-    "https://x.com/Snax4ogs/status/1930201674355814471",
-    "https://x.com/sahil2dev/status/1930204847598428283",
-    "https://x.com/Rahul113383/status/1930205881255239751",
-    "https://x.com/AlCoinverse/status/1929512117993910469",
-    "https://x.com/CoinWipe42313/status/1930197012625969263",
-    "https://x.com/ArjunMehra985/status/1930284895202377904"
+    # "https://x.com/Hitansh54/status/1930194500724334705",
+    "https://x.com/Hitansh54/status/1931754193489957133",
+    "https://x.com/Raj45307/status/1936455544069300299",
+    # "https://x.com/AlCoinverse/status/1929125757801890030",
+    # "https://x.com/Raj45307/status/1930202834756071790",
+    # "https://x.com/Snax4ogs/status/1930201674355814471",
+    # "https://x.com/sahil2dev/status/1930204847598428283",
+    # "https://x.com/Rahul113383/status/1930205881255239751",
+    # "https://x.com/AlCoinverse/status/1929512117993910469",
+    # "https://x.com/CoinWipe42313/status/1930197012625969263",
 ]
 
 # Website Links - Medium Priority
